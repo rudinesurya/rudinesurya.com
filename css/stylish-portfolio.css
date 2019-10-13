@@ -32,7 +32,7 @@ body {
 /* Custom Button Styles */
 
 .btn-dark {
-  border-radius: 0;
+  border-radius: 100;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .btn-light {
-  border-radius: 0;
+  border-radius: 100;
   color: #333;
   background-color: rgb(255, 255, 255);
 }
@@ -69,7 +69,7 @@ hr.small {
   display: table;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 70%;
   background: url(../img/bg.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
