@@ -1,39 +1,73 @@
 <section id="portfolio" class="portfolio">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="text-center">
-          <h3>
-            <strong>Ether Lunu</strong>
-          </h3>
+      <div class="col-lg-12 text-center">
+        <h3>
+          <strong>Ether Lunu</strong>
+        </h3>
 
-          <div class="col-lg-6">
-            <h4>
-              <strong>About</strong>
-            </h4>
-            <div class="text-left">
-              <p>
-                Ether Lunu is a first person platformer shooter. In Ether Lunu,
-                the protagonist uses his power called Ether to perform Sun Bust
-                to get around the level, avoid traps and reach to the goal.​
-              </p>
-            </div>
+        <div class="col-lg-6">
+          <h4>
+            <strong>About</strong>
+          </h4>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/d8Ep6NYgo80"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
+          <br />
+          <p style="text-align: left;">
+            Ether Lunu is a first person platformer shooter. In Ether Lunu, the
+            protagonist uses his power called Ether to perform Sun Bust to get
+            around the level, avoid traps and reach to the goal.​
+            <br />
+            <br />
+            Engine was built from the ground up in C++.
+          </p>
+        </div>
 
-          <div class="col-lg-6">
-            <h4>
-              <strong>Role</strong>
-            </h4>
-            <div class="text-left">
-              <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-              </ul>
-            </div>
-          </div>
-
-          <p></p>
+        <div class="col-lg-6">
+          <h4>
+            <strong>Role</strong>
+          </h4>
+          <ul style="text-align: left;">
+            <li>
+              Set up the ground work for the Game Engine using C++ and DirectX.
+              Also in charge of the physics engine (collision
+              detection/response, raycasting).
+            </li>
+            <li>
+              Research and develop improvements to the Game Engine. Such as
+              rendering optimization via frustum culling, collission detection
+              optimization via hierarchical trivial rejection checks (Bounding
+              sphere -> axis align bounding box -> obb) to prevent unnecessary
+              calculations when they are not needed. And more accurate collider
+              implementation via oriented bounding box and they perform
+              collision detection using Separation Axis Theorem.
+            </li>
+            <li>
+              Play a part in the creation of the level editor by assiting in
+              optimizing workflow of assets coming from the designers and
+              transporting them into the game system via an XML interface.
+            </li>
+            <li>
+              implementation of a simple AI system using finate state machine.
+              This allow easy creation of agents' or traps' behaviour which has
+              very simple mind of its own, and always react to state changes.
+            </li>
+          </ul>
+          <br />
+          <br />
+          <a
+            href="https://arcade.digipen.edu/games/ether-luna#.WdjQQGiCyUl"
+            class="btn btn-lg"
+            >Learn More</a
+          >
         </div>
       </div>
     </div>
