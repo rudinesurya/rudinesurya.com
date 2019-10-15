@@ -1,12 +1,9 @@
-<section id="portfolio" class="portfolio">
+<section id="portfolio1" class="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>
-          <strong
-            >Job catalog app that runs on native android (MVVM, Retrofit,
-            Kodein, Firebase, Maps)</strong
-          >
+          <strong>Job catalog</strong>
         </h2>
 
         <div class="col-lg-6">
@@ -14,34 +11,72 @@
             <strong>About</strong>
           </h3>
 
-          <img src="img/android.jpg" width="230" height="140" />
-          <br />
-          <br />
           <p style="text-align: left;">
             This is an app for quick contract job, similar to the likes of
             Meetup. It has some form of social networking feature, eg. the
             ability to view user's profile and chat.
+
+            <br />
+            <br />
+            This app has been developed for native Android with Kotlin and also
+            using MVVM, Retrofit, LiveData, Room, Firebase, Kodein.
           </p>
+
+          <h3>
+            <strong>Features</strong>
+          </h3>
+
+          <ul style="text-align: left;">
+            <li>CRUD operation with cloud persistence (Firestore)</li>
+            <li>List Jobs (Sorting, Filtering)</li>
+            <li>
+              Dynamic map view with gps (view nearby jobs and also places of
+              interests)
+            </li>
+            <li>View & Edit Job Detail (with authentication)</li>
+            <li>Chat system in the job page</li>
+            <li>
+              Push notification sent to participants (when job
+              cancelled/resumed)
+            </li>
+            <li>Login / Register</li>
+            <li>View other user's profile</li>
+            <li>Edit self user profile</li>
+            <li>Join / Leave Job</li>
+            <li>Custom Notifications</li>
+          </ul>
         </div>
 
         <div class="col-lg-6">
           <h3>
             <strong>Description</strong>
           </h3>
-          <ul style="text-align: left;">
-            <li>
-              Clean Design Concept and follows Material Design.
-            </li>
-            <li>
-              MVVM Architecture Adopted.
-            </li>
-            <li>
-              Repository layer pattern.
-            </li>
-            <li>
-              Experience with unit testing using JUnit and Mockito.
-            </li>
-          </ul>
+
+          <p style="text-align: left;">
+            This is an educational app developed in requirement for the Mobile
+            App Development Course which I undertook during my MSc in Computing.
+            <br />
+            <br />
+            The tech stack has been developed using MVVM in mind with Repository
+            layer pattern. This architectural pattern allows separating the user
+            interface logic from the business logic. Dependency injection,
+            fulfilled by Kodein allows a single source of truth for managing all
+            the dependencies required. Both practices combined make managing a
+            big project like this easier and testable.
+            <br />
+            <br />
+            To find out more on MVVM, you can visit
+            <a
+              href="https://proandroiddev.com/mvvm-architecture-viewmodel-and-livedata-part-1-604f50cda1"
+              >this blog</a
+            >
+            which perfectly explain what I'm doing here.
+            <br />
+            <br />
+            Last but not least, I have developed the UI adhering to Google
+            Material Design.
+          </p>
+
           <br />
           <br />
           <a
