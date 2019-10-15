@@ -2,61 +2,63 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h3>
+        <h2>
           <strong>Object Pooling</strong>
-        </h3>
+          </h3>
 
-        <div class="col-lg-6">
-          <h4>
-            <strong>About</strong>
-          </h4>
-          <div class="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/94n1VjyRYOc"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+          <div class="col-lg-6">
+            <h3>
+              <strong>About</strong>
+            </h3>
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/94n1VjyRYOc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <br />
+            <p style="text-align: left;">
+              This Object Pooling is a robust and lightweight pooling system for
+              Unity built for optimizing games that uses alot of objects over and
+              over again.
+
+              <br />
+              <br />
+              This asset is created using Unity (C#).
+            </p>
           </div>
-          <br />
-          <p style="text-align: left;">
-            This Object Pooling is a robust and lightweight pooling system for
-            unity built for optimizing games that uses alot of objects over and
-            over again.
+
+          <div class="col-lg-6">
+            <h3>
+              <strong>Description</strong>
+            </h3>
+
+            <p style="text-align: left;">
+              Instantiate() and Destroy() are useful and necessary methods during gameplay, usually costing little cpu.
+              However, when objects are created and destroyed in vast numbers per second, the CPU will need to work
+              extra hard. 
+              <br />
+              <br />
+              Object pooling is where you pre-instantiate all the objects you’ll need at any specific moment before
+              gameplay — for instance, during a loading screen. Instead of creating new objects and destroying old ones
+              during gameplay, your game reuses objects from a "pool".
+              <br />
+              <br />
+              This ability to recycle objects provide a huge boost to performance compared to the non-pooling method.
+              Usually the general application usage is for managing bullets and particle effects.
+              <br />
+              <br />
+              To find out more on object pooling, you can visit <a
+                href="https://www.raywenderlich.com/847-object-pooling-in-unity">raywenderlich's blog</a> which
+              perfectly explain what I'm doing here.
+            </p>
+
 
             <br />
             <br />
-            This asset is created using Unity3D.
-          </p>
-        </div>
 
-        <div class="col-lg-6">
-          <h4>
-            <strong>Description</strong>
-          </h4>
-          <ul style="text-align: left;">
-            <li>
-              Objectives : By managing a pool of instances and recycling objects
-              that are not in use at that point of time, we can save on CPU
-              overhead & memory that are required to instantiate & kill the
-              objects. So, pool manager can enhance performance when we are
-              required to work with huge amount of objects that are needed
-              frequently but only for a short amount of time.
-            </li>
-            <li>
-              Applications : Spawning of bullets, particle effects, decals...
-            </li>
-          </ul>
-          <br />
-          <br />
-          <a
-            href="https://bitbucket.org/rudinesurya/ez_utility/src/master/"
-            class="btn btn-lg"
-            >Learn More</a
-          >
-        </div>
+
+            <a href="https://assetstore.unity.com/publishers/8090" class="btn btn-lg">Learn More</a>
+          </div>
       </div>
     </div>
     <!-- /.row (nested) -->
