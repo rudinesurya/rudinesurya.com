@@ -1,8 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+  
+    <title>Rudine Surya</title>
+  
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet" />
+  
+    <!-- Custom Fonts -->
+    <link
+      href="font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
   <body>
-    {% include first/header.html %} {% include first/skills.html %} {% include scripts.html %}
+    <header id="top" class="header">
+      <div class="text-vertical-center">
+        <h1>Rudine Surya Hartanto</h1>
+        <!-- <h2>Full stack | Android | Web developer</h3> -->
+          
+        <br />
+        <br />
+        <ul class="list-inline">
+          <li>
+            <a href="mailto:rudinesurya@gmail.com">
+                <span style="color: whitesmoke;">
+                    <i class="fa fa-envelope fa-fw fa-3x"></i>
+                    <h4>Gmail</h4>
+                </span>
+            </a>
+          </li>
+          <li>
+            <a href="http://linkedin.com/in/rudinesurya">
+              <span style="color: whitesmoke;">
+                  <i class="fa fa-linkedin fa-fw fa-3x "></i>
+                  <h4>LinkedIn</h4>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/rudinesurya">
+              <span style="color: whitesmoke;">
+                  <i class="fa fa-github fa-fw fa-3x "></i>
+                  <h4>Github</h4>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    
+    
+    <section id="portfolio1" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>
+              <strong>Summary</strong>
+            </h2>
+    
+            <div class="col-lg-6">
+              <h3>
+                <strong>About</strong>
+              </h3>
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/SvXnmJqfwec"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <br />
+              <p style="text-align: left;">
+                This video is a showcase summary of the work I have done in DigiPen
+              Institute of Technology Singapore and out of school from 2011 to 2015.
+                <br />
+                <br />
+                
+              </p>
+            </div>
+    
+            <div class="col-lg-6">
+              <h3>
+                <strong>Skills</strong>
+              </h3>
+              <ul style="text-align: left;">
+                <li>Proficient in Unity (C#) and several top scripting assets:</li>
+                <ul>
+                    <li>Playmaker</li>
+                    <li>Tween</li>
+                    <li>Behavior Designer</li>
+                    <li>NGUI</li>
+                </ul>
+                <li>Experience in developing custom Game Engine using:</li>
+                <ul>
+                    <li>C++</li>
+                    <li>DirectX</li>
+                    <li>OpenGL</li>
+                </ul>
+              </ul>
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+    </section>
+    <section id="portfolio2" class="portfolio bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>
+              <strong>Ether Lunu</strong>
+            </h2>
+    
+            <div class="col-lg-6">
+              <h3>
+                <strong>About</strong>
+              </h3>
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/d8Ep6NYgo80"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <br />
+              <p style="text-align: left;">
+                Ether Lunu is a first person platformer shooter. In Ether Lunu, the
+                protagonist uses his power called Ether to perform Sun Burst to get
+                around the level, avoid traps and reach to the goal.​
+                <br />
+                <br />
+                Engine was built from the ground up in C++.
+              </p>
+            </div>
+    
+            <div class="col-lg-6">
+              <h3>
+                <strong>Role</strong>
+              </h3>
+              <ul style="text-align: left;">
+                <li>
+                  Set up the ground work for the Game Engine using C++ and DirectX.
+                  Also in charge of the physics engine (collision
+                  detection/response, raycasting).
+                </li>
+                <li>
+                  Research and develop improvements to the Game Engine. Such as
+                  rendering optimization via frustum culling, collission detection
+                  optimization via hierarchical trivial rejection checks (Bounding
+                  sphere -> axis align bounding box -> obb) to prevent unnecessary
+                  calculations when they are not needed. And more accurate collider
+                  implementation via oriented bounding box and they perform
+                  collision detection using Separation Axis Theorem.
+                </li>
+                <li>
+                  Play a part in the creation of the level editor by assisting in
+                  optimizing workflow of assets coming from the designers and
+                  transporting them into the game system through an XML interface.
+                </li>
+                <li>
+                  Implementation of a simple AI system using finate state machine.
+                  This allows easy creation of agents' or traps' behaviour which has
+                  very simple mind of its own, and always react to state changes.
+                </li>
+              </ul>
+              <br />
+              <br />
+              <a
+                href="https://arcade.digipen.edu/games/ether-luna#.WdjQQGiCyUl"
+                class="btn btn-lg"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+    </section>
+    <section id="portfolio3" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>
+              <strong>XRUSH</strong>
+            </h2>
+    
+            <div class="col-lg-6">
+              <h3>
+                <strong>About</strong>
+              </h3>
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/5nu2JHM60pg"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <br />
+              <p style="text-align: left;">
+                XRUSH is an infinite runner game, set in distant future. The player
+                navigate through the endless platform by moving left or right, and
+                can also morph its color to trigger magical runes. The runes will
+                give the player special ability if both are of the same color.
+                <br />
+                <br />
+                The game is created using Unity (C#) with graphical assets from the
+                asset store.
+              </p>
+            </div>
+    
+            <div class="col-lg-6">
+              <h3>
+                <strong>Role</strong>
+              </h3>
+              <ul style="text-align: left;">
+                <li>
+                  Implementation of endless platform generator, with variable
+                  constraints and probability measures to enable dynamic yet fun
+                  levels
+                </li>
+                <li>
+                  Implementation of robust object pooling system to handle the huge
+                  traffic of object creation and destruction as efficient as
+                  possible
+                </li>
+                <li>Game logic mechanic and effects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+    </section>
+    <section id="portfolio4" class="portfolio bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>
+              <strong>Object Pooling</strong>
+              </h3>
+    
+              <div class="col-lg-6">
+                <h3>
+                  <strong>About</strong>
+                </h3>
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/94n1VjyRYOc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+                <br />
+                <p style="text-align: left;">
+                  This Object Pooling is a robust and lightweight pooling system for
+                  Unity built for optimizing games that uses alot of objects over and
+                  over again.
+    
+                  <br />
+                  <br />
+                  This asset is created using Unity (C#).
+                </p>
+              </div>
+    
+              <div class="col-lg-6">
+                <h3>
+                  <strong>Description</strong>
+                </h3>
+    
+                <p style="text-align: left;">
+                  Instantiate() and Destroy() are useful and necessary methods during gameplay, usually costing little cpu.
+                  However, when objects are created and destroyed in vast numbers per second, the CPU will need to work
+                  extra hard. 
+                  <br />
+                  <br />
+                  Object pooling is where you pre-instantiate all the objects you’ll need at any specific moment before
+                  gameplay — for instance, during a loading screen. Instead of creating new objects and destroying old ones
+                  during gameplay, your game reuses objects from a "pool".
+                  <br />
+                  <br />
+                  This ability to recycle objects provide a huge boost to performance compared to the non-pooling method.
+                  Usually the general application usage is for managing bullets and particle effects.
+                  <br />
+                  <br />
+                  To find out more on object pooling, you can visit <a
+                    href="https://www.raywenderlich.com/847-object-pooling-in-unity">raywenderlich's blog</a> which
+                  perfectly explain what I'm doing here.
+                </p>
+    
+    
+                <br />
+                <br />
+    
+    
+                <a href="https://assetstore.unity.com/publishers/8090" class="btn btn-lg">Learn More</a>
+              </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+    </section>    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script> 
   </body>
 </html>
